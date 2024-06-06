@@ -1,0 +1,24 @@
+html,body{
+    height: 2000vh;
+    background-color: black;
+    cursor: none;
+}
+
+#screen, #extra_screen{
+    width: 70vw; height: 80vh;
+    position: fixed; top: 5vh; left: 15vw;
+    background-size: contain; background-repeat: no-repeat; background-position: center;
+    background-color: black;
+}
+
+#captions{
+    position: fixed; left: 0; top: 85vh;
+    width: 100vw; text-align: center;
+}
+
+    p{
+        font-size: 1.7vw;
+        color: white;
+        text-shadow: 0.1vw 0.1vw 0.2vw white;
+        /* text-decoration: underline; */
+    }
